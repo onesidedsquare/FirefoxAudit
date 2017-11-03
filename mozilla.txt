@@ -1,0 +1,59 @@
+//Firefox Settings for mozilla.txt
+//FIRST LINE MUST REMAIN A COMMENT
+//V-15768
+lockPref(“security.default_personal_cert”, “Ask Every Time”);
+//V-15771
+lockPref(“network.protocol-handler.external.shell”, false);
+//V-15772
+lockPref(“plugin.disable_full_page_plugin_for_types”, “application/pdf,application/fdf,application/xfdf,application/lsl,application/lso,application/lss,application/iqy,application/rqy,application/xlk,application/xls,application/xlt,application/pot,application/pps,application/ppt,application/dos,application/dot,application/wks,application/bat,application/ps,application/eps,application/wch,application/wcm,application/wb1,application/wb3,application/rtf,application/doc,application/mdb,application/mde,application/ad,application/,application/adp”);
+//V-15774
+lockPref(“browser.formfill.enable”, false);
+//V-15775
+lockPref("signon.prefillForms", false);
+//V-15776
+lockPref(“signon.rememberSignons”, false);
+//V-15777
+lockPref("browser.history_expire_days_min", 40);
+//V-15778
+lockPref(“dom.disable_window_open_feature.status”, true);
+//V-15779
+lockPref(“dom.disable_window_move_resize”, true);
+//V-15983
+lockPref("security.enable_tls", true);
+lockPref("security.enable_ssl2", false);
+lockPref("security.enable_ssl3", false);
+lockPref(“security.tls.version.min”, 2);
+lockPref(“security.tls.version.max”, 3);
+//V-15985
+lockPref(“dom.disable_window_flip”, true);
+//V-15986
+lockPref(“dom.event.contextmenu.enabled”, false);
+lockPref("dom.disable_window_move_resize", true");
+lockPref("dom.disable_window_flip", true);
+//V-15987
+lockPref(“dom.disable_window_status_change”, true);
+//V-15988
+lockPref(“dom.disable_window_open_feature.status”, true);
+//V-15989
+lockPref("security.warn_leaving_secure", true);
+//V-15990
+lockPref(“browser.startup.homepage”, “about:blank”);
+//V-19741
+lockPref(“app.update.enabled”, false);
+//V-19742
+lockPref(“extensions.update.enabled”, false);
+//V-19744
+lockPref(“browser.search.update”, false);
+//V-64891
+lockPref("xpinstall.enabled", false);
+
+//OPTIONAL
+lockPref(“signon.autofillForms”, false);
+lockPref(“privacy.sanitize.sanitizeOnShutdown”, true);
+lockPref(“privacy.sanitize.promptOnSanitize”, false);
+lockPref("privacy.item.history", false);
+lockPref("xpinstall.whitelist.required", true);
+lockPref("browser.shell.checkDefaultBrowser", false);
+lockPref("browser.download.dir", "<DIR>");
+lockPref("browser.download.downloadDir", "<DIR>");
+//EOF
